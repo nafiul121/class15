@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*---start--Apps & Game---*/
+.games{
+	background-image:url(img/r.jpg);
+	
+	
+}
+.overlay{
+	background-color:#9271f6bd;
+	padding: 100px 0px;
+	overflow: hidden;
+}
+
+.contanier{
+	width: 80%;
+	margin: auto;
+}
+.cool-1{
+	width: 50%;
+	float: left;
+}
+.cool-1 img{
+	width: 400px;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+h1{
+	font-size:30px;
+	color:white;
+	
+}
+.cool-1 p{
+	font-size:15px;
+	color: #ffffffb0;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+.btn{background:red;
+	border-radius:35px;
+    padding: 20px;
+    text-decoration: none;
+	
+}
+.btn:hover{background:blue;
+	border-radius:35px;
+    padding: 20px 45px 20px 20px;
+    text-decoration: none;
+	transition:3s all;
+}
+/*--end--Apps & Game---*/
+/*--course--start---*/
+.courses{
+	overflow: hidden;
+	padding: 50px 0px;
+}
+.course-1{
+	width: 40%;
+	float: left;
+}
+.course-2{
+	width: 50%;
+	float: left;
+	box-shadow: 2px 2px 3px 3px #eee;
+	background: #fff;
+	padding: 0px;
+}
+.course-1 h1{
+	font-size: 37px;
+	color: #7272ff;
+	font-weight: 700;
+}  
+.course-1 h4{
+	font-size: 17px;
+	color: #000;
+	font-weight: 700;
+	margin-top: 25px;
+}
+.course-1 p{
+	font-size: 16px;
+	color: blue;
+	font-weight: 300;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+hr{
+	width: 30px;
+	height: 3px;
+	margin-top: 30px;
+} 
+
+
+.web{
+	width: 49%;
+	float: left;
+	margin-right: ;
+	border: 2px solid #eee;
+	border-left: none;
+
+}
+.web img{
+	float: left;
+	width: 60px;
+	margin-right: 20px;
+	height: 60px;
+	margin-bottom: 50px;
+	margin-top: 3px;
+}
+.web h5{
+	font-size: 17px;
+	color: #000;
+}
+
+.web p{
+	font-size: 14px;
+	color: blue;
+	margin-top: 13px;
+	line-height: 1.4;
+}
+/*--course--end---*/
+
+/*--start--expert---*/
+
+.expert{
+	background-image:url(img/r.jpg);
+	
+	
+}
+.overlay{
+	background-color:#9271f6bd;
+	padding: 100px 0px;
+	overflow: hidden;
+}
+.col-2-1{
+	float: left;
+	width: 50%;
+	
+}
+.col-2-1 img{
+	width: 450px;
+    height: auto;
+}
+.col-2-3{
+	float: right;
+}
+.col-2-3 p{
+	font-size:15px;
+	color: #ffffffb0;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+	 /*--end--expert---*/
+	 /*--start--learn---*/
+.learn{
+		 padding: 80px 0px;
+		 overflow: hidden;
+	 }
+.col-3-1{
+		 width: 50%;
+		 float: left;
+	 }
+	 .col-5 img{
+		 width: 80px !important;
+		 hight: auto;
+	 }
+.col-3-1 img{
+	width: 450px;
+	hight: auto:
+}
+.col-3-1 h1{
+	font-size: 17px;
+	color: #000;
+	font-weight: 700;
+	margin-top: 25px;
+}
+.col-3-1 p{
+		font-size: 19px;
+	color: blue;
+	font-weight: 300;
+	margin-top: 35px;
+}
+hr{
+	width: 30px;
+	hight: 3px;
+	margin-top:25px;
+}
+
+	 /*--end--learn---*/
+	  /*--start--portfolio---*/
+.portfolio{
+	padding: 50px 0px;
+	overflow: hidden;
+}
+		  /*--end--portfolio---*/ 
+		  /*--end--achieve---*/ 
+		  
+.achieve{
+	
+	padding: 50px 0px;
+	overflow: hidden;
+}		  
+		  
+		  
+		  
+		  /*--end--achieve---*/ 
+	 
+	 
+
+	 
+	
+                      /*--start--games---*/
+@media(max-width:1024px){
+	.cool-1{
+	width:100%;
+	float: none;
+	}
+	
+.cool-1 img{
+	width: 200px;
+	margin-top:20px;
+	flaot: left;
+
+	}
+	
+}
+                 /*--end--games---*/
+				 
+/*--start--web---*/
+@media(max-width: 980px){
+	.course-1{
+	width: 100%;
+	float: none;
+	}
+	.course-2{
+		width: 100%;
+	    float: none;
+		margin-top: 60px;
+}
+.web{
+	width: 100%;
+	float: left;
+}
+
+
+}
+/*--end--web---*/
+/*--start--expert---*/
+@media(max-width:980px){
+	.col-2-1{
+	float: left;
+	width: 100%;
+	
+}
+.col-2-1 img{
+	width: 300px;
+    
+}
+}
+ /*--start--learn---*/
+ @media(max-width:980px){
+	 .col-3-1{
+		 width: 100%;
+		 margin: 30;
+	 }
+		 
+		
+ }
+ 
+ 
+ /*--end--learn---*/
